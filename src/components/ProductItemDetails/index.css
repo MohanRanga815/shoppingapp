@@ -1,0 +1,135 @@
+/* Write your CSS here */
+.app-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.fail-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fail-img {
+  width: 350px;
+  height: 35vh;
+}
+.fail-head {
+  font-size: 30px;
+}
+.btn {
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 6px;
+  padding: 5px;
+}
+.success-con {
+  display: flex;
+  flex-direction: column;
+}
+.product-details-con {
+  display: flex;
+  flex-direction: row;
+}
+.image {
+  width: 300px;
+  height: 80vh;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-right: 12px;
+}
+.product-title-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  margin-left: 20px;
+  padding: 10px;
+}
+.title {
+  color: #616e7c;
+  font-size: 20px;
+}
+.price {
+  font-size: 18px;
+  color: #171f46;
+}
+.rating-review-con {
+  display: flex;
+  margin-top: 10px;
+}
+.rate-con {
+  background-color: #3b82f6;
+  border-radius: 7px;
+  border: none;
+  display: flex;
+  text-align: center;
+  height: 30px;
+  width: 40px;
+  align-items: center;
+  margin-top: 10px;
+}
+.rating {
+  text-align: center;
+  color: #ffffff;
+  font-size: 10px;
+  margin-left: 5px;
+}
+.star-icon {
+  width: 12px;
+  height: 12px;
+}
+.review-count {
+  font-size: 14px;
+  color: #616e7c;
+  margin-left: 10px;
+}
+.description {
+  color: #616e7c;
+  font-size: 14px;
+}
+.label-con {
+  display: flex;
+}
+.avail-para {
+  font-weight: 600;
+  color: #1e293b;
+}
+.avail-value {
+  margin-left: 4px;
+  color: #616e7c;
+  font-size: 16px;
+}
+.hori-line {
+  width: 100%;
+  color: #616e7c;
+}
+.quantity-con {
+  display: flex;
+}
+.btn-minus {
+  border: none;
+  background-color: transparent;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.quantity-num {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.cart {
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 10px;
+}
+.similar-head {
+  color: #616e7c;
+  font-size: 24px;
+  padding: 10px;
+}
+.similar-lists {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}

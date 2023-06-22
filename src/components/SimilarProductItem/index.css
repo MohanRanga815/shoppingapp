@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.list-products {
+  list-style-type: none;
+  margin-left: 10px;
+}
+.image {
+  width: 200px;
+  height: 30vh;
+}
+.title {
+  font-size: 14px;
+  margin-left: 20px;
+  color: #171f46;
+}
+.brand {
+  font-size: 14px;
+  margin-left: 20px;
+}
+.label-price-con {
+  display: flex;
+}
+.price {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.rating-con {
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 10px;
+  margin-left: 60px;
+  width: 50px;
+  display: flex;
+  height: 30px;
+  align-items: center;
+  margin-top: 20px;
+}
